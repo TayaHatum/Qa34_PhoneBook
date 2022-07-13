@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="tests.RemoveContactTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-07-13T15:45:18" hostname="MBP-Taya.lan" time="1.668">
+<testsuite name="tests.RemoveContactTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-07-13T16:26:14" hostname="MBP-Taya.lan" time="18.311">
   <properties/>
-  <testcase name="removeOneContactSuccess" classname="tests.RemoveContactTests" time="1.668"/>
-  <system-out><![CDATA[5
-4
+  <testcase name="removeAllContactsSuccess" classname="tests.RemoveContactTests" time="7.395"/>
+  <testcase name="removeOneContactSuccess" classname="tests.RemoveContactTests" time="0.915"/>
+  <system-out><![CDATA[3
+2
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -18,7 +18,7 @@ public class AddNewContactTests extends TestBase{
 
     }
 
-    @Test (invocationCount = 5)
+    @Test (invocationCount = 2)
     public void addNewContactSuccess(){
         Random random = new Random();
         int i = random.nextInt(1000)+1000;

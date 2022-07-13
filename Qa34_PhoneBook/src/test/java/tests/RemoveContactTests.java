@@ -13,6 +13,8 @@ public class RemoveContactTests extends TestBase{
             app.getHelperUser().login(new User().setEmail("noa@gmail.com").setPassword("Nnoa12345$"));
         }
 
+        app.contact().providerContactData();
+
     }
 
     @Test
@@ -23,4 +25,11 @@ public class RemoveContactTests extends TestBase{
 
     }
 
+    @Test
+    public void removeAllContactsSuccess(){
+        app.contact().removeAllContacts();
+       Assert.assertTrue(app.contact().isNoContactsHere());
+
+
+    }
 }
