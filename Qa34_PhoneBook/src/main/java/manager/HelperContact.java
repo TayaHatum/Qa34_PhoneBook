@@ -66,8 +66,9 @@ public class HelperContact extends HelperBase{
     public int removeOneContact() {
 
         int countBefore  = countOfContacts();
-        System.out.println(countBefore);
+      logger.info("Count before remove is "  +countBefore);
         if(!isContactListEmpty()){
+            logger.info("List of Contact not Empty");
             click(By.cssSelector(".contact-item_card__2SOIM"));
             click(By.xpath("//button[text()='Remove']"));
             pause(500);
@@ -75,7 +76,7 @@ public class HelperContact extends HelperBase{
         }
 
         int countAfter = countOfContacts();
-        System.out.println(countAfter);
+        logger.info("Count after remove is " +countAfter);
         return countBefore-countAfter;
     }
 
