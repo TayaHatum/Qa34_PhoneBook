@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Qa34_PhoneBook.iml" filepath="$PROJECT_DIR$/.idea/Qa34_PhoneBook.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Qa34_PhoneBook.Qa34_PhoneBook.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Qa34_PhoneBook.Qa34_PhoneBook.test.iml" />
     </modules>
   </component>
 </project>
